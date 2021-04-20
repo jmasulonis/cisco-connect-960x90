@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>Cisco HTML5 Banners</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+<!-- Styles -->
+<link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body onload="init();" style="margin:0px;">
+	<div class="container">
+		<div id="animation_container" style="background-color:rgba(18, 38, 75, 1.00); width:970px; height:90px">
+			<canvas id="canvas" width="970" height="90" style="position: absolute; display: block; background-color:rgba(18, 38, 75, 1.00);"></canvas>
+			<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:970px; height:90px; position: absolute; left: 0px; top: 0px; display: block;">
+			</div>
+		</div>
+		<nav>
+			<a href="#">300x600</a>
+			<button onclick="init();" id="replay-skyscraper"><i class="fas fa-reply"></i></button>
+			<a href="#">160x600</a>
+		</nav>
+	</div>
+
+	<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+	<script src="js/cisco-960x90.js"></script>
+</body>
+</html>
